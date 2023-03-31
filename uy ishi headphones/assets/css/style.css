@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: system-ui, -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section1 {
+    text-align: center;
+    padding: 270px 0;
+    width: 1600px;
+    background-image: url(../img/images\ \(16\).jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    margin: 0 auto;
+}
+
+.section2 {
+    text-align: center;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.section3 {
+    text-align: center;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.shopping {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.shopping-text {
+    width: 30%;
+    text-align: left;
+}
+
+.shopping-text p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.shopping-text h1 {
+    margin-bottom: 50px;
+    font-size: 42px;
+    text-align: left;
+}
+
+.shopping-text a {
+    color: #000;
+    padding: 18px 24px;
+    background-color: #fff;
+    transition: 0.4s;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.shopping-text a:hover {
+    border: 1px solid black;
+}
+
+/**2*/
+
+.shopping-bottom {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.shopping-bottom h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.shopping-bottom p {
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.shopping-bottom p b {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/*3*/
+
+.nav {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(234, 170, 67);
+    margin-bottom: 60px;
+}
+
+.nav h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.music-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.music-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.music-item {
+    width: 32%;
+    background-color: rgb(234, 170, 67);
+}
+
+.music-item img {
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+.music-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.music-item p {
+    font-size: 22px;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/*4*/
+
+.headphones {
+    width: 1140px;
+}
+
+.headphones-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.headphones-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.headphones-item {
+    width: 24%;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+.headphones-item img {
+    width: 100%;
+    height: 190px;
+}
+
+
+
